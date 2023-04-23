@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-noscript",
+  "version": "1.0.0",
+  "description": "A Tailwind CSS plugin for applying certain classes when JavaScript is disabled or unsupported.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": "Josh Wilson <joshwilsonvu@gmail.com>",
+  "repository": "https://github.com/joshwilsonvu/tailwindcss-noscript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "noscript",
+    "no script",
+    "no JS"
+  ],
+  "license": "MIT",
+  "files": ["index.js", "index.d.ts"],
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0 || insiders"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.4"
+  }
+}
